@@ -1,0 +1,254 @@
+{
+   margin :0;
+   padding:0;
+}
+.main{
+   width: 100%;
+   background-image: url(pc-gaming-background.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.about{
+   width: 100%;
+   background-image: url(Cool-Gaming-Wallpaper-iPhone-7.jpg);
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+   width: 90%;
+   display:inline-flex;
+   margin: auto;
+   padding:10px;
+   align-items: center;
+   justify-content:space-between;
+
+}
+  .navbar.logo{
+   width:160px ;
+   cursor:pointer ;
+   margin-top:  3% ;
+   margin-left: 2%;
+}
+ul{
+    margin:top;
+   
+}
+ul li{
+   list-style: none;
+   display: inline-block;
+   padding:18px;
+   position: relative;top: px;left:pxt;
+   
+}
+ul li a{
+   font-size: 20 px;
+   font-weight: bolder;
+   text-decoration: none;
+   color: yellow;
+   margin-top: 4%;
+   transition: .4s ease;
+}
+
+/* ul li a :hover{
+   color: lightseagreen !important;
+   transition: 4s;
+
+} */
+
+.nav-item:hover{
+  color: blue !important;
+   transition: 4s;
+   box-shadow: 0 0 0px white;
+}
+
+
+
+.info{
+   margin-left: 1%;
+   margin-top: 1%;
+   color: lightskyblue;
+   font-family: sans-serif;
+}
+.info h1{ 
+   font-size: 15px;
+   font-family: sans-serif;
+   font-weight: bold;
+   color: lightskyblue;
+
+}
+.info h2{
+   font-weight: bolder;
+   color:yellow;
+   font-size: x-large;
+}
+.info span{  
+   color: aquamarine;
+}
+/*about section*/
+
+.about{
+   display: flex;
+   flex-direction: column;
+  
+}
+.about-item{
+   display: flex;
+   background: rgba(0, 0, 0, 0.9) !important;
+   height: 100%;
+}
+.about-item img{
+   width: 20px;
+   height: 20px;
+   align-items: left;
+}
+.headings{
+   text-align: center;
+   width: 100%;
+   background:rgb(2, 43, 49);
+   font-size: 20 px;
+   font-weight: bolder;
+   text-decoration: none;
+   color: yellow;
+   margin-top: 0px !important;
+   transition: .4s ease;
+}
+.about-text{
+   align-items: normal;
+}
+.img{
+   display:flex;
+}
+.info ol li{
+   display: normal;
+   text-align: center;
+   justify-content: space-between;
+}
+.box{
+   display:inline-block;
+   justify-content: center;
+   align-items: center;
+   min-height: 300px;
+   height:100px ;
+   padding:30px;
+   border-radius:15px;
+   background-color:lightseagreen;
+   text-align: center;
+
+
+
+
+}
+.card{
+   padding: 50px 50px;
+   border-radius: 10px;
+   margin: 15px;
+   position:relative;
+   overflow:hidden;
+   height:300px ;
+   width: 300px;
+   text-align: center;
+}
+h4{
+   color: aliceblue;
+   font-size: large;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   font-weight: bold;
+}
+.card-item p{
+   color:yellow ;
+   font-size: medium;
+   font-weight: lighter;
+   font-style: normal;
+   font-family: serif;
+}
+.info-box{
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   min-height: 300px;
+   height:100px ;
+   padding:50px;
+   border-radius: 20px;
+   background-color:rgb(64, 119, 153);
+   margin: 60px;
+   border: 20px;
+}
+.info-box p{
+   font-size: x-large;
+   font-family: sans-serif;
+   font-weight:lighter;
+   font-style: italic;
+   color:white;
+}
+.container{
+   width: 350%;
+   margin: 50pxauto;
+}
+.contact-box{
+   display:flex;
+   background-color:cyan;
+}
+.contact-left{
+   flex-basis: 40%;
+   padding: 10px;
+   font-weight: bold;
+   text-align: center;
+}
+.contact-right{
+   flex-basis: 50%;
+   padding: 30px;
+   background-color: rgb(18, 172, 121);
+   font-weight: bold;
+   text-align: center;
+} 
+h4{
+   margin-bottom: 20px;
+   font-family:sans-serif;
+   font-weight: bold;
+   font-style: inherit;
+   color: black;
+}
+.container p{
+   font-family: sans-serif;
+   font-style: italic;
+   font-weight: lighter;
+} 
+.input-row{
+   display:flex;
+   justify-content:space-between;
+   margin-bottom: 30px;
+   margin: 50px;
+   display: flex;
+}
+.input-row .input-group{
+   flex-basis: 46%;
+
+}
+.input{
+   width: 100%;
+   border: none;
+   border-bottom: 1px solid #ccc;
+   padding-bottom: 5;
+   outline: none;
+
+}
+label{
+   color: yellow;
+}
+button{
+   background-color:b(yellowgreen);
+   color:yellowgreen;
+   width: 50px;
+   outline: none;
+   border: none;
+   height:60px;
+   border-radius: 30px;
+   box-shadow: 1px 2px 1px 1px black;
+}
